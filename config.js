@@ -1,5 +1,7 @@
 var config = {};
 
+config.port = process.env.PORT || 3000;
+
 config.endpoint = 'https://pokemonsdb.documents.azure.com:443/';
 config.key =
     'cRIUNWsUIvEdOl9U35W4pjqpluBPRKThi95WuuvkvHC3B1vt42g4tOXaffaHIJcOzwIEKKNpPGCEACDbxXaKzA==';
