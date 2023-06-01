@@ -188,10 +188,9 @@ async function deletePokemon(req, res) {
  */
 function exit(message) {
     console.log(message);
-    console.log('Press any key to exit');
-    process.stdin.setRawMode(true);
+    /*process.stdin.setRawMode(true);
     process.stdin.resume();
-    process.stdin.on('data', process.exit.bind(process, 0));
+    process.stdin.on('data', process.exit.bind(process, 0));*/
 }
 
 const setupDatabase = createDatabase()
